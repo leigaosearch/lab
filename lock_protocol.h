@@ -4,6 +4,7 @@
 #define lock_protocol_h
 
 #include "rpc.h"
+#include <unistd.h>
 
 class lock_protocol {
  public:
