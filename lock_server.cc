@@ -142,7 +142,6 @@ lock_server::release(int clt,lock_protocol::lockid_t lid, int &r)
 	}
 
 	return 0;
->>>>>>> 4c84ebbdd5ebe1229841b84e0694c6e9d62154de
 
 
 }
