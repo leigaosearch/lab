@@ -33,12 +33,7 @@ lock_client::acquire(lock_protocol::lockid_t lid)
     int r;
     lock_protocol::status ret = cl->call(lock_protocol::acquire, cl->id(), lid, r);
     return r;
-<<<<<<< HEAD
-=======
 
-
-
->>>>>>> 4c84ebbdd5ebe1229841b84e0694c6e9d62154de
 }
 
 lock_protocol::status
